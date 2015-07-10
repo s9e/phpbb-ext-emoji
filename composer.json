@@ -1,0 +1,19 @@
+{
+	"name": "s9e/emoji",
+	"type": "phpbb-extension",
+	"description": "Support for emoji",
+	"homepage": "https://github.com/s9e/phpbb-ext-emoji/",
+	"version": "1.0",
+	"keywords": ["phpbb","code"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/emoji",
+		"soft-require": {
+			"phpbb/phpbb": "3.2.*"
+		}
+	}
+}

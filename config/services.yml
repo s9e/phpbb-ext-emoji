@@ -1,0 +1,5 @@
+services:
+  s9e.emoji.listener:
+    class: s9e\emoji\listener
+    tags:
+      - { name: event.listener }
